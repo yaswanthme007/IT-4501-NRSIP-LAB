@@ -1,0 +1,10 @@
+EXPECTED OUTPUT
+
+- Router interfaces are configured and reach the up/up state.
+- Static routes provide communication with remote networks.
+- Router3 uses the default route 0.0.0.0/0 via 10.0.23.1 for unknown destinations.
+- Routing tables show the configured static/default routes.
+- Ping and traceroute succeed across the LANs.
+
+RESULT:
+Static Routing and Default Routing were successfully configured. The routers forwarded traffic using manually configured routes, and the default route was used for unknown destinations. End-to-end communication was verified.

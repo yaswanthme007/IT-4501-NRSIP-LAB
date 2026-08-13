@@ -1,0 +1,11 @@
+EXPECTED OUTPUT
+
+- VLANs 10 (SALES) and 20 (HR) are configured.
+- Fa0/1-Fa0/2 belong to VLAN 10.
+- Fa0/3-Fa0/4 belong to VLAN 20.
+- Fa0/24 operates as a trunk.
+- Router-on-a-Stick subinterfaces provide gateways for both VLANs.
+- Same-VLAN and inter-VLAN ping tests succeed.
+
+RESULT:
+VLANs were configured successfully and Inter-VLAN Routing was implemented using Router-on-a-Stick. Communication between hosts in the same VLAN and different VLANs was verified using ping.

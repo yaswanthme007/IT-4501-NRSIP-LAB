@@ -1,0 +1,13 @@
+show vlan brief
+show interfaces trunk
+show ip interface brief
+
+PC0:
+ping 192.168.10.3
+ping 192.168.10.1
+ping 192.168.20.2
+
+PC2:
+ping 192.168.20.3
+ping 192.168.20.1
+ping 192.168.10.2

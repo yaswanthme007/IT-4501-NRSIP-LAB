@@ -1,0 +1,19 @@
+show ip interface brief
+show ip route
+show running-config
+show ip protocols
+show interfaces
+
+PC1:
+ping 192.168.2.2
+ping 192.168.3.2
+
+PC2:
+ping 192.168.1.2
+ping 192.168.3.2
+
+PC3:
+ping 192.168.1.2
+ping 192.168.2.2
+
+traceroute 192.168.3.2

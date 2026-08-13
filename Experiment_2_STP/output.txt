@@ -1,0 +1,10 @@
+EXPECTED OUTPUT
+
+- STP detects the redundant Layer-2 loop.
+- S1 becomes the Root Bridge after its bridge priority is set to 4096.
+- One redundant port enters the Blocking/Discarding state.
+- The remaining required ports remain in Forwarding state.
+- Ping replies succeed between the PCs.
+
+RESULT:
+STP was successfully verified. S1 was elected as the Root Bridge, one redundant link was blocked to eliminate the loop, and loop-free communication was verified.

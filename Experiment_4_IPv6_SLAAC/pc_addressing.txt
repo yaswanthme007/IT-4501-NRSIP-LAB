@@ -1,0 +1,4 @@
+PC1: IPv6 Configuration -> Auto Config (SLAAC)
+PC2: IPv6 Configuration -> Auto Config (SLAAC)
+
+The PCs obtain IPv6 address, prefix length and default gateway from Router Advertisement messages.

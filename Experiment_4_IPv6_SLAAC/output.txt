@@ -1,0 +1,9 @@
+EXPECTED OUTPUT
+
+- IPv6 addresses are configured on both routers.
+- Router Advertisement (RA) messages allow the PCs to automatically configure IPv6 addresses using SLAAC.
+- IPv6 routing tables contain the configured static routes.
+- Successful IPv6 ping replies confirm end-to-end connectivity.
+
+RESULT:
+IPv6 addressing was successfully configured on the routers and SLAAC was implemented to automatically assign IPv6 addresses to hosts. End-to-end connectivity was verified.

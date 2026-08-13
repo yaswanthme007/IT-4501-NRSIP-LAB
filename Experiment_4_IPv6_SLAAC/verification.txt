@@ -1,0 +1,11 @@
+show ipv6 interface brief
+show ipv6 route
+show ipv6 interface
+show ipv6 neighbors
+show running-config
+ping 2001:DB8:1:12::2
+ping 2001:DB8:1:1::1
+
+PCs:
+ipconfig
+ping <PC2's SLAAC IPv6 address>

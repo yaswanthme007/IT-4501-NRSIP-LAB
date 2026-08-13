@@ -1,0 +1,9 @@
+EXPECTED OUTPUT
+
+- The 192.168.10.0/24 network is divided using VLSM into /26, /27, /28 and /30 subnets.
+- Router interfaces have the required IP addresses and masks.
+- Static routes enable communication between the LAN subnets.
+- Ping replies succeed among all LANs.
+
+RESULT:
+IPv4 subnetting using VLSM was successfully designed and implemented. IP address space was efficiently utilized, routing between subnets was achieved, and end-to-end communication was verified.
